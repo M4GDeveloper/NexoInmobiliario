@@ -1,0 +1,13 @@
+2021-07-14 15:33:37 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/pc/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/pc/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2021-07-14 15:33:37 [main] INFO  c.s.a.SpringBootEiNexoInmobiliarioApplicationTests - Starting SpringBootEiNexoInmobiliarioApplicationTests using Java 1.8.0_111 on DESKTOP-U83711B with PID 6836 (started by pc in C:\Users\pc\Documents\m4g-projects\spring-boot-ei-nexo-inmobiliario)
+2021-07-14 15:33:37 [main] INFO  c.s.a.SpringBootEiNexoInmobiliarioApplicationTests - No active profile set, falling back to default profiles: default
+2021-07-14 15:33:38 [main] INFO  com.zoho.oauth.client.ZohoOAuth - Zoho OAuth Client Library configuration properties : {accessType=Production, minLogLevel=OFF, currentUserEmail=sistemasei@ei.com.pe, scope=ZohoCRM.modules.ALL,ZohoCRM.settings.ALL,Aaaserver.profile.read, domainSuffix=com, client_secret=5fa836547755dabfa07ffb70796a2a30971657d0ce, redirect_uri=https://www.google.com/response, iamURL=https://accounts.zoho.com, client_id=1000.LLEDQ7GEY7VQQQMTWKR33DSML3VOQS, oauth_tokens_file_path=/opt/edificaciones-inmobiliarias/token-nexo.properties, persistence_handler_class=com.zoho.oauth.clientapp.ZohoOAuthFilePersistence}
+2021-07-14 15:33:39 [main] INFO  c.s.a.SpringBootEiNexoInmobiliarioApplicationTests - Started SpringBootEiNexoInmobiliarioApplicationTests in 3.079 seconds (JVM running for 4.837)
